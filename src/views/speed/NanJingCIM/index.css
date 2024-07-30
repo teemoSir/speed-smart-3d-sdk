@@ -1,0 +1,75 @@
+.ktmap {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    z-index: 0;
+}
+
+/*头部*/
+#header {
+    width: 100%;
+    height: 15%;
+    top: 0;
+    position: absolute;
+    background: url("@/assets/speed/NanJingCIM/头部.png") no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 100;
+}
+
+.appearance,
+.planning,
+.buinding,
+.manage,
+.appearance1,
+.planning1,
+.buinding1,
+.manage1 {
+    background: transparent;
+    border: none;
+    height: 30px;
+    width: 125px;
+}
+
+.appearance {
+    background: url("@/assets/speed/NanJingCIM/csgm.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.planning {
+    background: url("@/assets/speed/NanJingCIM/csgh.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.buinding {
+    background: url("@/assets/speed/NanJingCIM/csjs.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.manage {
+    background: url("@/assets/speed/NanJingCIM/csgl.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.appearance1 {
+    background: url("@/assets/speed/NanJingCIM/csgm1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.planning1,
+.aa {
+    background: url("@/assets/speed/NanJingCIM/csgh1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.buinding1,
+.bb {
+    background: url("@/assets/speed/NanJingCIM/csjs1.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.manage1,
+.cc {
+    background: url("@/assets/speed/NanJingCIM/csgl1.png") no-repeat center center;
+    background-size: 100% 100%;
+}

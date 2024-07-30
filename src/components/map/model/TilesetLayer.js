@@ -1,0 +1,126 @@
+/**
+ * 模型对象
+ */
+class TilesetLayer {
+
+
+  /**
+   * 图层id
+   * @member {Number}
+   */
+  id;
+
+  /**
+   * 这是一个Cesium.Cesium3DTileset对像
+   * @member {Cesium.Cesium3DTileset}
+   */
+  tileset;
+
+  /**
+   * 初始化模型
+   * @param {Object} option 初始化模型参数
+   * @param {String} option.url 瓦片集JSON文件的url
+   * @param {Number}[option.maximumMemoryUsage=1024] 内存建议显存大小的50%左右，内存分配变小有利于倾斜摄影数据回收，提升性能体验, 单位MB
+   * @param {Number}[option.maximumScreenSpaceError=24] 数值加大，能让最终成像变模糊
+   * @param {Boolean}[option.show=true] 显示
+   * @param {Number}[option.dynamicScreenSpaceErrorDensity=1] 调整动态屏幕空间误差，类似于雾密度
+   * @param {Boolean}[option.dynamicScreenSpaceError=true] 优化选项。减少距离相机较远的图块的屏幕空间错误
+   * @param {Number}[option.cullRequestsWhileMovingMultiplier=80] 优化选项。移动时用于剔除请求的乘数。较大的是更积极的剔除，较小的较不积极的剔除
+   * @param {Boolean}[option.loadSiblings=true] 当 skipLevelOfDetail 为 true 时，确定是否始终在遍历期间下载可见瓦片的node节点
+   * @param {Boolean}[option.skipLevelOfDetail=true] 优化选项。确定是否应在遍历期间应用详细级别跳过
+   * @param {Boolean}[option.preferLeaves=true] show为false时，可选预加载图块。加载图块，就好像图块集可见但不渲染它们
+   * @param {Number}[option.dynamicScreenSpaceErrorFactor=1] 用于增加计算的动态屏幕空间误差的因素
+   * @param {Number}[option.progressiveResolutionHeightFraction= 0.5] 优化选项。如果在 (0.0, 0.5] 之间，屏幕空间错误或超过屏幕空间错误的图块将优先考虑降低的屏幕分辨率的 progressiveResolutionHeightFraction*screenHeight 。这有助于在继续加载全分辨率图块时快速降低图块层
+   */
+  tilesetLayer(option) {
+    this.id = option.id;
+    this.tileset = new Cesium.Cesium3DTileset({
+      url: option.url,
+      maximumMemoryUsage:
+        option.maximumMemoryUsage == undefined
+          ? 1024
+          : option.maximumMemoryUsage,
+      maximumScreenSpaceError:
+        option.maximumScreenSpaceError == undefined
+          ? 24
+          : option.maximumScreenSpaceError,
+      show: option.show == undefined ? true : option.show,
+      dynamicScreenSpaceErrorDensity:
+        option.dynamicScreenSpaceErrorDensity == undefined
+          ? 1
+          : option.dynamicScreenSpaceErrorDensity,
+      dynamicScreenSpaceError:
+        option.dynamicScreenSpaceError == undefined
+          ? true
+          : option.dynamicScreenSpaceError,
+      cullRequestsWhileMovingMultiplier:
+        option.cullRequestsWhileMovingMultiplier == undefined
+          ? 80
+          : option.cullRequestsWhileMovingMultiplier,
+      loadSiblings:
+        option.loadSiblings == undefined ? true : option.loadSiblings,
+      skipLevelOfDetail:
+        option.skipLevelOfDetail == undefined ? true : option.skipLevelOfDetail,
+      preferLeaves:
+        option.preferLeaves == undefined ? true : option.preferLeaves,
+      preloadWhenHidden:
+        option.preloadWhenHidden == undefined ? true : option.preloadWhenHidden,
+      dynamicScreenSpaceErrorFactor:
+        option.dynamicScreenSpaceErrorFactor == undefined
+          ? 1
+          : option.dynamicScreenSpaceErrorFactor,
+      progressiveResolutionHeightFraction:
+        option.progressiveResolutionHeightFraction == undefined
+          ? 0.5
+          : option.progressiveResolutionHeightFraction,
+    });
+  }
+
+
+  /**
+   * @param {TilesetLayer} tileset 模型
+   * @param {Object} option 模型调整参数
+   * @param {Number} option.position.lng 目标经度
+   * @param {Number} option.position.lat 目标纬度
+   * @param {Number} option.position.alt 目标高程
+   * @param {Number} option.rotation.x X轴旋转
+   * @param {Number} option.rotation.y Y轴旋转
+   * @param {Number} option.rotation.z Z轴旋转
+   * @param {Number} option.opacity 模型透明度
+   * @param {Number} option.scale 模型缩放
+   * @returns {Cesium.Cesium3DTileset} Cesium.Cesium3DTileset对象
+   */
+  updateMpdel(tilesetLayer, option) {
+    let tileset = tilesetLayer.tileset;
+    let longitude = option.position.lng;
+    let latitude = option.position.lat;
+    let height = option.position.alt;
+    let x = option.rotation.x;
+    let y = option.rotation.y;
+    let z = option.rotation.z;
+    let hpr = new Cesium.Matrix3();
+    let hprObj = new Cesium.HeadingPitchRoll(z, y, x);
+    hpr = Cesium.Matrix3.fromHeadingPitchRoll(hprObj, hpr);
+    let modelMatrix = Cesium.Matrix4.multiplyByTranslation(
+      Cesium.Transforms.eastNorthUpToFixedFrame(
+        Cesium.Cartesian3.fromDegrees(longitude, latitude, height)
+      ),
+      new Cesium.Cartesian3(),
+      new Cesium.Matrix4()
+    );
+    Cesium.Matrix4.multiplyByMatrix3(modelMatrix, hpr, modelMatrix);
+
+    if (option.scale) {
+      const _scale = Cesium.Matrix4.fromUniformScale(option.scale);
+      Cesium.Matrix4.multiply(modelMatrix, _scale, modelMatrix);
+    }
+
+    if (option.opacity) {
+      tileset.style = new Cesium.Cesium3DTileStyle({
+        color: "color('rgba(255,255,255," + option.opacity + ")')",
+      });
+    }
+    tileset._root.transform = modelMatrix;
+    return tileset;
+  }
+}

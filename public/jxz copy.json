@@ -1,0 +1,2050 @@
+{
+    "type": "FeatureCollection",
+    "layer": {
+        "id": "m-ef9181a0-c496-41a8-bfd9-de98029cf9fe"
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "1101",
+				"building":"1栋",
+                "thisFloor": 1,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 4,
+                "maxHeight": 7,
+                "id": "m-7f471d84-0c26-44e1-954c-a5dee9c0f9e3"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324226,
+                            37.533275,
+                            0
+                        ],
+                        [
+                            116.324304,
+                            37.533245,
+                            0
+                        ],
+                        [
+                            116.324386,
+                            37.53338,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "1201",
+				"building":"1栋",
+                "thisFloor": 2,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 7,
+                "maxHeight": 10,
+                "id": "m-99efd690-db5c-4129-8c89-3a2f1502336f"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324226,
+                            37.533275,
+                            0
+                        ],
+                        [
+                            116.324304,
+                            37.533245,
+                            0
+                        ],
+                        [
+                            116.324386,
+                            37.53338,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "1301",
+				"building":"1栋",
+                "thisFloor": 3,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 10,
+                "maxHeight": 13,
+                "id": "m-22d49e85-20f3-404d-9423-31ed735a380c"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324226,
+                            37.533275,
+                            0
+                        ],
+                        [
+                            116.324304,
+                            37.533245,
+                            0
+                        ],
+                        [
+                            116.324386,
+                            37.53338,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "1401",
+				"building":"1栋",
+                "thisFloor": 4,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 13,
+                "maxHeight": 16,
+                "id": "m-e472b1b0-bb6e-4713-b4f7-d48c725a4c65"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324226,
+                            37.533275,
+                            0
+                        ],
+                        [
+                            116.324304,
+                            37.533245,
+                            0
+                        ],
+                        [
+                            116.324386,
+                            37.53338,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "1501",
+				"building":"1栋",
+                "thisFloor": 5,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 16,
+                "maxHeight": 19,
+                "id": "m-0ac6761e-ac93-4a13-91f2-2e6419b1f08d"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324226,
+                            37.533275,
+                            0
+                        ],
+                        [
+                            116.324304,
+                            37.533245,
+                            0
+                        ],
+                        [
+                            116.324386,
+                            37.53338,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "1601",
+				"building":"1栋",
+                "thisFloor": 6,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 19,
+                "maxHeight": 22,
+                "id": "m-b7e186c1-88cd-47a8-b2c1-2a2c45cf87f9"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324226,
+                            37.533275,
+                            0
+                        ],
+                        [
+                            116.324304,
+                            37.533245,
+                            0
+                        ],
+                        [
+                            116.324386,
+                            37.53338,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "1701",
+				"building":"1栋",
+                "thisFloor": 7,
+                "floorHeight": 4,
+                "allFloor": 7,
+                "minHeight": 22,
+                "maxHeight": 26,
+                "id": "m-bb191b5c-0905-4e18-a83e-33b07250fe68"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324226,
+                            37.533275,
+                            0
+                        ],
+                        [
+                            116.324304,
+                            37.533245,
+                            0
+                        ],
+                        [
+                            116.324386,
+                            37.53338,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ],
+                        [
+                            116.324306,
+                            37.533409,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2101",
+				"building":"2栋",
+                "thisFloor": 1,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 4,
+                "maxHeight": 7,
+                "id": "m-f855e153-1d74-4be1-a651-d5aaa9b2fe5e"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.323509,
+                            37.533553,
+                            0
+                        ],
+                        [
+                            116.323592,
+                            37.533687,
+                            0
+                        ],
+                        [
+                            116.324229,
+                            37.533439,
+                            0
+                        ],
+                        [
+                            116.324146,
+                            37.533303,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2201",
+				"building":"2栋",
+                "thisFloor": 2,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 7,
+                "maxHeight": 10,
+                "id": "m-3e3b8008-86c0-43c1-a067-516553c2b7be"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.323509,
+                            37.533553,
+                            0
+                        ],
+                        [
+                            116.323592,
+                            37.533687,
+                            0
+                        ],
+                        [
+                            116.324229,
+                            37.533439,
+                            0
+                        ],
+                        [
+                            116.324146,
+                            37.533303,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+               "name": "2301",
+				"building":"2栋",
+                "thisFloor": 3,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 10,
+                "maxHeight": 13,
+                "id": "m-5b295166-259a-405d-95bf-0be7f3293ba7"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.323509,
+                            37.533553,
+                            0
+                        ],
+                        [
+                            116.323592,
+                            37.533687,
+                            0
+                        ],
+                        [
+                            116.324229,
+                            37.533439,
+                            0
+                        ],
+                        [
+                            116.324146,
+                            37.533303,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2401",
+				"building":"2栋",
+                "thisFloor": 4,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 13,
+                "maxHeight": 16,
+                "id": "m-e0885602-0d29-4df9-8b2f-80418667b5f1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.323509,
+                            37.533553,
+                            0
+                        ],
+                        [
+                            116.323592,
+                            37.533687,
+                            0
+                        ],
+                        [
+                            116.324229,
+                            37.533439,
+                            0
+                        ],
+                        [
+                            116.324146,
+                            37.533303,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2501",
+				"building":"2栋",
+                "thisFloor": 5,
+                "floorHeight": 3,
+                 "allFloor": 7,
+                "minHeight": 16,
+                "maxHeight": 19,
+                "id": "m-6682d885-f4fc-4f73-bae5-849ca04e35ce"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.323509,
+                            37.533553,
+                            0
+                        ],
+                        [
+                            116.323592,
+                            37.533687,
+                            0
+                        ],
+                        [
+                            116.324229,
+                            37.533439,
+                            0
+                        ],
+                        [
+                            116.324146,
+                            37.533303,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2601",
+				"building":"2栋",
+                "thisFloor": 6,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 19,
+                "maxHeight": 22,
+                "id": "m-2c935d35-9394-4864-aaa9-8b0f8c4d6198"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.323509,
+                            37.533553,
+                            0
+                        ],
+                        [
+                            116.323592,
+                            37.533687,
+                            0
+                        ],
+                        [
+                            116.324229,
+                            37.533439,
+                            0
+                        ],
+                        [
+                            116.324146,
+                            37.533303,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2701",
+				"building":"2栋",
+                "thisFloor": 7,
+                "floorHeight": 4,
+                "allFloor": 7,
+                "minHeight": 22,
+                "maxHeight": 26,
+                "id": "m-5bbe077b-0419-4ce9-8a42-56b05b606d45"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.323509,
+                            37.533553,
+                            0
+                        ],
+                        [
+                            116.323592,
+                            37.533687,
+                            0
+                        ],
+                        [
+                            116.324229,
+                            37.533439,
+                            0
+                        ],
+                        [
+                            116.324146,
+                            37.533303,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2102",
+				"building":"2栋",
+                "thisFloor": 1,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 4,
+                "maxHeight": 7,
+                "id": "m-898503e8-a862-4ffb-a64b-e692fb852703"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324306,
+                            37.533249,
+                            0
+                        ],
+                        [
+                            116.324378,
+                            37.533221,
+                            0
+                        ],
+                        [
+                            116.324451,
+                            37.533342,
+                            0
+                        ],
+                        [
+                            116.324381,
+                            37.533373,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2202",
+				"building":"2栋",
+                "thisFloor": 2,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 7,
+                "maxHeight": 10,
+                "id": "m-d14a6473-8bd4-4272-b9c8-e5898b0138e0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324306,
+                            37.533249,
+                            0
+                        ],
+                        [
+                            116.324378,
+                            37.533221,
+                            0
+                        ],
+                        [
+                            116.324451,
+                            37.533342,
+                            0
+                        ],
+                        [
+                            116.324381,
+                            37.533373,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2302",
+				"building":"2栋",
+                "thisFloor": 3,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 10,
+                "maxHeight": 13,
+                "id": "m-1512709d-0c13-48e9-9202-fc4fd324b311"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324306,
+                            37.533249,
+                            0
+                        ],
+                        [
+                            116.324378,
+                            37.533221,
+                            0
+                        ],
+                        [
+                            116.324451,
+                            37.533342,
+                            0
+                        ],
+                        [
+                            116.324381,
+                            37.533373,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+				"name": "2402",
+				"building":"2栋",
+                "thisFloor": 4,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 13,
+                "maxHeight": 16,
+                "id": "m-3d4214da-b4af-472c-9fcb-df8097ef4338"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324306,
+                            37.533249,
+                            0
+                        ],
+                        [
+                            116.324378,
+                            37.533221,
+                            0
+                        ],
+                        [
+                            116.324451,
+                            37.533342,
+                            0
+                        ],
+                        [
+                            116.324381,
+                            37.533373,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2502",
+				"building":"2栋",
+                "thisFloor": 5,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 16,
+                "maxHeight": 19,
+                "id": "m-14ba5e7e-6d27-462b-a16f-5a8f34afa326"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324306,
+                            37.533249,
+                            0
+                        ],
+                        [
+                            116.324378,
+                            37.533221,
+                            0
+                        ],
+                        [
+                            116.324451,
+                            37.533342,
+                            0
+                        ],
+                        [
+                            116.324381,
+                            37.533373,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2602",
+				"building":"2栋",
+                "thisFloor": 6,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 19,
+                "maxHeight": 22,
+                "id": "m-b6b8b7c4-701b-4ac4-87ff-57edef8ef948"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324306,
+                            37.533249,
+                            0
+                        ],
+                        [
+                            116.324378,
+                            37.533221,
+                            0
+                        ],
+                        [
+                            116.324451,
+                            37.533342,
+                            0
+                        ],
+                        [
+                            116.324381,
+                            37.533373,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2702",
+				"building":"2栋",
+                "thisFloor": 7,
+                "floorHeight": 4,
+                "allFloor": 7,
+                "minHeight": 22,
+                "maxHeight": 26,
+                "id": "m-f2b338a9-79d0-48c0-aee9-02476ad30762"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324306,
+                            37.533249,
+                            0
+                        ],
+                        [
+                            116.324378,
+                            37.533221,
+                            0
+                        ],
+                        [
+                            116.324451,
+                            37.533342,
+                            0
+                        ],
+                        [
+                            116.324381,
+                            37.533373,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2103",
+				"building":"2栋",
+                "thisFloor": 1,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 4,
+                "maxHeight": 7,
+                "id": "m-0ac8b07e-328b-4c23-a53e-6b2931a1cc36"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324379,
+                            37.533223,
+                            0
+                        ],
+                        [
+                            116.324482,
+                            37.533184,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ],
+                        [
+                            116.32445,
+                            37.53334,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2203",
+				"building":"2栋",
+                "thisFloor": 2,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 7,
+                "maxHeight": 10,
+                "id": "m-f651a109-0fab-4b19-9cda-69f271c5d229"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324379,
+                            37.533223,
+                            0
+                        ],
+                        [
+                            116.324482,
+                            37.533184,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ],
+                        [
+                            116.32445,
+                            37.53334,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2303",
+				"building":"2栋",
+                "thisFloor": 3,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 10,
+                "maxHeight": 13,
+                "id": "m-499b7189-6515-431c-b049-68038763cbf4"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324379,
+                            37.533223,
+                            0
+                        ],
+                        [
+                            116.324482,
+                            37.533184,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ],
+                        [
+                            116.32445,
+                            37.53334,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2403",
+				"building":"2栋",
+                "thisFloor": 4,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 13,
+                "maxHeight": 16,
+                "id": "m-cdd6a971-35d9-4a88-b446-b2252afb6993"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324379,
+                            37.533223,
+                            0
+                        ],
+                        [
+                            116.324482,
+                            37.533184,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ],
+                        [
+                            116.32445,
+                            37.53334,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2503",
+				"building":"2栋",
+                "thisFloor": 5,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 16,
+                "maxHeight": 19,
+                "id": "m-66abf4df-6eb2-489f-8a16-591530a0879a"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324379,
+                            37.533223,
+                            0
+                        ],
+                        [
+                            116.324482,
+                            37.533184,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ],
+                        [
+                            116.32445,
+                            37.53334,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2603",
+				"building":"2栋",
+                "thisFloor": 6,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 19,
+                "maxHeight": 22,
+                "id": "m-9516fe5e-829a-4461-9424-b83bb0a7c6bb"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324379,
+                            37.533223,
+                            0
+                        ],
+                        [
+                            116.324482,
+                            37.533184,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ],
+                        [
+                            116.32445,
+                            37.53334,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2703",
+				"building":"2栋",
+                "thisFloor": 7,
+                "floorHeight": 4,
+                "allFloor": 7,
+                "minHeight": 22,
+                "maxHeight": 26,
+                "id": "m-2eb87efc-f597-4527-b70a-2ff0bdc0be69"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324379,
+                            37.533223,
+                            0
+                        ],
+                        [
+                            116.324482,
+                            37.533184,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ],
+                        [
+                            116.32445,
+                            37.53334,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2104",
+				"building":"2栋",
+                "thisFloor": 1,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 4,
+                "maxHeight": 7,
+                "id": "m-59f38f32-fd72-45ed-90ca-3c8e4611e319"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324481,
+                            37.533183,
+                            0
+                        ],
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533261,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2204",
+				"building":"2栋",
+                "thisFloor": 2,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 7,
+                "maxHeight": 10,
+                "id": "m-b390430a-67ed-4c1d-9c57-744d1752e41e"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324481,
+                            37.533183,
+                            0
+                        ],
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533261,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2304",
+				"building":"2栋",
+                "thisFloor": 3,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 10,
+                "maxHeight": 13,
+                "id": "m-6f11d540-953d-455e-b050-3b3cf3b8f32a"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324481,
+                            37.533183,
+                            0
+                        ],
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533261,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2404",
+				"building":"2栋",
+                "thisFloor": 4,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 13,
+                "maxHeight": 16,
+                "id": "m-c58a21bd-2ad8-4d86-abcd-48315f041974"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324481,
+                            37.533183,
+                            0
+                        ],
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533261,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2504",
+				"building":"2栋",
+                "thisFloor": 5,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 16,
+                "maxHeight": 19,
+                "id": "m-41270f54-34d5-46ee-b35e-2e0ad5ffd41b"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324481,
+                            37.533183,
+                            0
+                        ],
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533261,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2604",
+				"building":"2栋",
+                "thisFloor": 6,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 19,
+                "maxHeight": 22,
+                "id": "m-40e5fed2-c541-403b-b2f2-d4e6e43dce9a"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324481,
+                            37.533183,
+                            0
+                        ],
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533261,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2704",
+				"building":"2栋",
+                "thisFloor": 7,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 22,
+                "maxHeight": 26,
+                "id": "m-c482da58-10ee-42cc-9d29-7cc1905f7e06"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324481,
+                            37.533183,
+                            0
+                        ],
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533261,
+                            0
+                        ],
+                        [
+                            116.324553,
+                            37.533301,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2105",
+				"building":"2栋",
+                "thisFloor": 1,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 4,
+                "maxHeight": 7,
+                "id": "m-12ee344d-2e50-4e1f-b6be-cc93d699ded0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324728,
+                            37.533241,
+                            0
+                        ],
+                        [
+                            116.324656,
+                            37.533266,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2205",
+				"building":"2栋",
+                "thisFloor": 2,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 7,
+                "maxHeight": 10,
+                "id": "m-91085c8c-d6ac-4684-bdb5-963766f86ac3"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324728,
+                            37.533241,
+                            0
+                        ],
+                        [
+                            116.324656,
+                            37.533266,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2305",
+				"building":"2栋",
+                "thisFloor": 3,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 10,
+                "maxHeight": 13,
+                "id": "m-e56c5d2b-ccb6-403a-a955-ef9dd06edc77"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324728,
+                            37.533241,
+                            0
+                        ],
+                        [
+                            116.324656,
+                            37.533266,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2405",
+				"building":"2栋",
+                "thisFloor": 4,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 13,
+                "maxHeight": 16,
+                "id": "m-1f05273d-f5e8-42ec-88fa-99802f1a633c"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324728,
+                            37.533241,
+                            0
+                        ],
+                        [
+                            116.324656,
+                            37.533266,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2505",
+				"building":"2栋",
+                "thisFloor": 5,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 16,
+                "maxHeight": 19,
+                "id": "m-014f94bf-451c-49f8-9872-a38b4498441f"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324728,
+                            37.533241,
+                            0
+                        ],
+                        [
+                            116.324656,
+                            37.533266,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2605",
+				"building":"2栋",
+                "thisFloor": 6,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 19,
+                "maxHeight": 22,
+                "id": "m-a6b71e70-945f-4c86-846a-3644ac10293b"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324728,
+                            37.533241,
+                            0
+                        ],
+                        [
+                            116.324656,
+                            37.533266,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2705",
+				"building":"2栋",
+                "thisFloor": 7,
+                "floorHeight": 4,
+                "allFloor": 7,
+                "minHeight": 22,
+                "maxHeight": 26,
+                "id": "m-08225b52-5040-40a9-bd96-f282e3ae4b8f"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324582,
+                            37.533145,
+                            0
+                        ],
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324728,
+                            37.533241,
+                            0
+                        ],
+                        [
+                            116.324656,
+                            37.533266,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+				"name": "2106",
+				"building":"2栋",
+                "thisFloor": 1,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 4,
+                "maxHeight": 7,
+                "id": "m-88d88b6d-d503-4570-b3cb-40f8acf6b24f"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533088,
+                            0
+                        ],
+                        [
+                            116.324805,
+                            37.533214,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533243,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2206",
+				"building":"2栋",
+                "thisFloor": 1,
+                "thisFloor": 2,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 7,
+                "maxHeight": 10,
+                "id": "m-658439d9-1d7c-46c1-940f-32d4216294de"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533088,
+                            0
+                        ],
+                        [
+                            116.324805,
+                            37.533214,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533243,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2306",
+				"building":"2栋",
+                "thisFloor": 1,
+                "thisFloor": 3,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 10,
+                "maxHeight": 13,
+                "id": "m-b85f4e7e-bbe9-48d5-a6f1-e22d0dd168ad"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533088,
+                            0
+                        ],
+                        [
+                            116.324805,
+                            37.533214,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533243,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2406",
+				"building":"2栋",
+                "thisFloor": 1,
+                "thisFloor": 4,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 13,
+                "maxHeight": 16,
+                "id": "m-44214a63-5e25-4de2-a17b-97f0cfe4094c"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533088,
+                            0
+                        ],
+                        [
+                            116.324805,
+                            37.533214,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533243,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2506",
+				"building":"2栋",
+                "thisFloor": 1,
+                "thisFloor": 5,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 16,
+                "maxHeight": 19,
+                "id": "m-2375f833-0ddf-49e1-bbc3-247ece779d45"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533088,
+                            0
+                        ],
+                        [
+                            116.324805,
+                            37.533214,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533243,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2606",
+				"building":"2栋",
+                "thisFloor": 1,
+                "thisFloor": 6,
+                "floorHeight": 3,
+                "allFloor": 7,
+                "minHeight": 19,
+                "maxHeight": 22,
+                "id": "m-b5ff54b0-d97a-4adb-b752-9c235af539a0"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533088,
+                            0
+                        ],
+                        [
+                            116.324805,
+                            37.533214,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533243,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "2706",
+				"building":"2栋",
+                "thisFloor": 1,
+                "thisFloor": 7,
+                "floorHeight": 4,
+                "allFloor": 7,
+                "minHeight": 22,
+                "maxHeight": 26,
+                "id": "m-e5826fee-fe70-4628-bef3-6f88ebb39181"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324653,
+                            37.533117,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533088,
+                            0
+                        ],
+                        [
+                            116.324805,
+                            37.533214,
+                            0
+                        ],
+                        [
+                            116.324729,
+                            37.533243,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "3101",
+				"building":"3栋",
+                "thisFloor": 1,
+                "thisFloor": 1,
+                "floorHeight": 26,
+                "allFloor": 1,
+                "minHeight": 4,
+                "maxHeight": 26,
+                "id": "m-26dd2712-19c2-4a8a-97ea-e24c4465a47c"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            116.324403,
+                            37.533561,
+                            0
+                        ],
+                        [
+                            116.324904,
+                            37.533369,
+                            0
+                        ],
+                        [
+                            116.324981,
+                            37.533499,
+                            0
+                        ],
+                        [
+                            116.324478,
+                            37.533692,
+                            0
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

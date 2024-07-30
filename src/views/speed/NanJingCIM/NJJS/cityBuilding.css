@@ -1,0 +1,497 @@
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-3000px, 0, 0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate3d(15px, 0, 0);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translate3d(35px, 0, 0);
+    }
+
+    80% {
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(5px, 0, 0);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(3000px, 0, 0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate3d(15px, 0, 0);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translate3d(35px, 0, 0);
+    }
+
+    80% {
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(5px, 0, 0);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+#buildLeftTop,
+#buildLeftBottom,
+#buildRightTop,
+#buildRightBottom {
+    position: absolute;
+    width: 20%;
+    margin-left: 1%;
+    margin-top: 4.5%;
+    height: 52%;
+    z-index: 200;
+    background: url("@/assets/speed/NanJingCIM/城市建设/左上背景框.png");
+    background-size: 100% 100%;
+    animation: bounceInLeft 1.5s 1 cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+/* 左上角部分 */
+/* .divInput {
+    width: 80%;
+    height: 6%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/下拉.png");
+    background-size: 100% 100%;
+} */
+
+ul li {
+    list-style: none;
+}
+
+.input,
+.input:hover {
+    width: 90%;
+    height: 8%;
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    padding: 5px;
+    background: url("@/assets/speed/NanJingCIM/城市建设/下拉.png");
+    background-size: 100% 100%;
+    border: none;
+    /*很关键：将默认的select选择框样式清除*/
+    padding-right: 140px;
+}
+
+.input:hover {
+    background: url("@/assets/speed/NanJingCIM/城市建设/下拉1.png");
+    background-size: 100% 100%;
+}
+
+.input input {
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding-left: 10%;
+}
+
+.list {
+    position: absolute;
+    width: 90%;
+    top: 14%;
+    left: 5%;
+    overflow: hidden;
+    color: azure;
+}
+
+.list ul li {
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    line-height: 30px;
+    padding-left: 10px;
+    background: url("@/assets/speed/NanJingCIM/城市建设/下拉选项.png");
+    background-size: 100% 100%;
+    padding-left: 10%;
+    z-index: 300;
+}
+
+.list ul li:hover {
+    background: url("@/assets/speed/NanJingCIM/城市建设/下拉选项1.png");
+    background-size: 100% 100%;
+}
+
+.scenic1,
+.scenic2,
+.scenic3 {
+    width: 90%;
+    height: 35%;
+    margin-top: 25%;
+    margin-left: 5%;
+}
+
+.scenic2 {
+    margin-top: 5%;
+}
+
+.scenic1 .scenicButton,
+.scenic2 .scenicButton,
+.scenic3 .scenicButton {
+    width: 15%;
+    height: 100%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/紫金山标题.png");
+    background-size: 100% 100%;
+    border: none;
+}
+
+.scenic1 .arrow,
+.scenic2 .arrow,
+.scenic3 .arrow {
+    width: 10px;
+    height: 10px;
+    background: url("@/assets/speed/NanJingCIM/城市建设/小箭头.png");
+    background-size: 100% 100%;
+    border: none;
+    position: absolute;
+    margin-top: 33%;
+    margin-left: -7.5%;
+}
+
+.scenic1 .img2,
+.scenic2 .img2,
+.scenic3 .img2 {
+    width: 85%;
+    height: 100%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/紫金山标题.png");
+    background-size: 100% 100%;
+}
+
+.scenic1 p,
+.scenic2 p,
+.scenic3 p {
+    writing-mode: vertical-rl;
+    margin-top: 15%;
+    margin-left: 5%;
+    position: absolute;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.scenic3 p {
+    margin-top: 20%;
+}
+
+/* 左下角部分 */
+#buildLeftBottom {
+    top: 60%;
+    margin-top: 1.5%;
+    height: 35%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/左下背景框.png");
+    background-size: 100% 100%;
+    animation: bounceInLeft 1.5s 1 cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+#buildLeftBottom .pathSelect,
+#buildLeftBottom .pathSelect1 {
+    width: 85%;
+    margin-left: 7.5%;
+    margin-top: 3%;
+    height: 13%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/路线-默认.png");
+    background-size: 100% 100%;
+    color: azure;
+    border: none;
+}
+
+#buildLeftBottom .pathSelect:hover {
+    background: url("@/assets/speed/NanJingCIM/城市建设/路线-悬停.png");
+    background-size: 100% 100%;
+}
+
+#buildLeftBottom .pathSelect1 {
+    background: url("@/assets/speed/NanJingCIM/城市建设/路线-点击.png");
+    background-size: 100% 100%;
+}
+
+#buildLeftBottom p {
+    margin-left: -50%;
+    display: inline;
+}
+
+#buildLeftBottom button:first-child {
+    margin-top: 8%;
+}
+
+.pathsel {
+    appearance: none;
+    /* 清除掉自带的样式 */
+    -webkit-appearance: none;
+    /* 这是做兼容用的 只有谷歌浏览器作为参照 */
+    outline: none;
+    /* 部分浏览器清除自带的样式后外面会带有一圈边框 */
+    width: 15px;
+}
+
+.simulation {
+    width: 40%;
+    height: 13%;
+    margin-left: 30%;
+    margin-top: 5%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/模拟观景.png");
+    background-size: 100% 100%;
+}
+
+.simulation:hover {
+    background: url("@/assets/speed/NanJingCIM/城市建设/模拟观景1.png");
+    background-size: 100% 100%;
+}
+
+/* 右上角部分 */
+#buildRightTop {
+    right: 1%;
+    height: 33%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/右上背景框.png");
+    background-size: 100% 100%;
+    animation: bounceInRight 1.5s 1 cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+#myEchart {
+    width: 220px;
+    height: 220px;
+    margin-top: 15%;
+    font-weight: 10;
+    margin-left: 0;
+    flex: 1;
+}
+
+#myButton {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 27%;
+}
+
+#myButton .text {
+    margin-top: 8%;
+    margin-left: 22%;
+    color: aliceblue;
+}
+
+.dailyFlow,
+.maxFlow {
+    width: 90%;
+    height: 18%;
+    font-weight: 10;
+    margin-left: -5%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/票价背景框.png");
+    background-size: 100% 100%;
+    text-align: left;
+}
+
+.maxFlow {
+    margin-top: 7%;
+}
+
+#myButton .arrow1,
+#myButton .arrow2 {
+    width: 25px;
+    height: 25px;
+    background: url("@/assets/speed/NanJingCIM/城市建设/日客流量.png");
+    background-size: 100% 100%;
+    border: none;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+#myButton .arrow2 {
+    background: url("@/assets/speed/NanJingCIM/城市建设/最大客流量.png");
+    background-size: 100% 100%;
+}
+
+#myButton .sum1,
+#myButton .sum2 {
+    color: #0dffff;
+    margin-top: 0%;
+    margin-left: 22%;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#myButton .sum2 {
+    color: #fdbe16;
+    margin-top: 2%;
+}
+
+.buttomTime {
+    width: 80%;
+    height: 10%;
+    margin-top: -15%;
+    margin-left: 10%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/底部时间框.png");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.buttomTime p {
+    color: #96ccf2;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 2%;
+}
+
+/* 右下角部分 */
+#buildRightBottom {
+    right: 1%;
+    margin-top: 23%;
+    height: 54%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/右下背景框.png");
+    background-size: 100% 100%;
+    animation: bounceInRight 1.5s 1 cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+#buildRightBottom .mytext {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    line-height: 25px;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.price {
+    width: 50%;
+    height: 8%;
+    margin-left: 25%;
+    margin-top: 7%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/票价背景框.png");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+/* 中间标识栏 */
+#centerIcon {
+    position: absolute;
+    margin-top: 5%;
+    width: 50%;
+    height: 35px;
+    margin-left: 25%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/定位点提示.png");
+    background-size: 100% 100%;
+    z-index: 200;
+}
+
+/* 底部功能栏 */
+#buildFoot {
+    position: absolute;
+    bottom: 0%;
+    width: 45%;
+    height: 5%;
+    margin-left: 28.5%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/中间底部.png");
+    background-size: 100% 100%;
+    z-index: 200;
+    text-align: center;
+}
+
+/* 底部图标 */
+.footIcon {
+    margin-top: -5.5%;
+    margin-left: 20%;
+    width: 60%;
+    display: flex;
+}
+
+.footIcon div {
+    flex: 1;
+}
+
+.JQYL,
+.JQYL1 {
+    width: 10%;
+    margin-right: 9%;
+    margin-left: 7%;
+    margin-top: 2%;
+    height: 80px;
+    background: url("@/assets/speed/NanJingCIM/城市建设/景区预览.png");
+    background-size: 100% 100%;
+    border: none;
+}
+
+.JQYL1,
+.aa1 {
+    background: url("@/assets/speed/NanJingCIM/城市建设/景区预览1.png");
+    background-size: 100% 100%;
+}
+
+.LYLX,
+.LYLX1 {
+    width: 10%;
+    height: 80px;
+    margin-right: 9%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/旅游路线.png");
+    background-size: 100% 100%;
+    border: none;
+}
+
+.LYLX1,
+.bb1 {
+    background: url("@/assets/speed/NanJingCIM/城市建设/旅游路线1.png");
+    background-size: 100% 100%;
+}
+
+.ZSP,
+.ZSP1 {
+    width: 10%;
+    height: 80px;
+    margin-right: 9%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/指示牌.png");
+    background-size: 100% 100%;
+    border: none;
+}
+
+.ZSP1,
+.cc1 {
+    background: url("@/assets/speed/NanJingCIM/城市建设/指示牌1.png");
+    background-size: 100% 100%;
+}
+
+.YJTS,
+.YJTS1 {
+    width: 10%;
+    margin-right: 9%;
+    height: 80px;
+    margin-top: 2%;
+    background: url("@/assets/speed/NanJingCIM/城市建设/应急逃生.png");
+    background-size: 100% 100%;
+    border: none;
+}
+
+.YJTS1,
+.dd1 {
+    background: url("@/assets/speed/NanJingCIM/城市建设/应急逃生1.png");
+    background-size: 100% 100%;
+}

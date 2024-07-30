@@ -1,0 +1,280 @@
+/* 中间主体 */
+#box {
+  height: 92%;
+  margin-top: 4%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  z-index: 200;
+}
+#AnalysisLeft1,
+#AnalysisLeft2 {
+  width: 18%;
+  height: 40%;
+  top: 15%;
+  margin-left: 0%;
+  background: url("@/assets/speed/communityPNG/ymfx.png") no-repeat center center;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: 200;
+}
+
+#AnalysisLeft2 {
+  background: url("@/assets/speed/communityPNG/kwfx.png") no-repeat center center;
+  background-size: 100% 100%;
+  height: 25%;
+}
+
+.myCancel {
+  width: 5%;
+  height: 5%;
+  margin-top: 5%;
+  margin-left: 90%;
+  background: url("@/assets/speed/communityPNG/bt_tc.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#AnalysisLeft1 p,
+#AnalysisLeft2 p{
+  color: aliceblue;
+  font-size: 10px;
+  margin-left: 30px;
+  line-height: 45px;
+  display: inline;
+}
+
+#AnalysisLeft1 input,
+#AnalysisLeft2 input {
+  background-color: #08213a;
+  width: 100px;
+  height: 25px;
+  border: 1px #2577ba solid;
+  color: aliceblue;
+}
+
+.hzym,
+.hzka {
+  width: 40%;
+  height: 9%;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  background: url("@/assets/speed/communityPNG/hzymfx.png") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.hzka {
+  background: url("@/assets/speed/communityPNG/hzkwfx.png") no-repeat center center;
+  background-size: 100% 100%;
+  height: 15%;
+  top: 21%;
+}
+
+.AnalysisFoot {
+  width: 100%;
+  height: 10%;
+  margin-top: 5%;
+  position: relative;
+  text-align: center;
+}
+
+.start,
+.stop,
+.clean {
+  background: url("@/assets/speed/communityPNG/bt_ks.png") no-repeat;
+  background-size: 100% 100%;
+  width: 22%;
+  height: 100%;
+  border: none;
+}
+
+.clean {
+  background-image: url("@/assets/speed/communityPNG/bt_qc.png");
+}
+
+#AnalysisLeft2 .AnalysisFoot {
+  height: 15%;
+}
+
+#AnalysisLeft2 .start {
+  margin-right: 5%;
+}
+
+#AnalysisLeft2 .clean{
+  margin-left: 5%;
+}
+
+.stop {
+  background-image: url("@/assets/speed/communityPNG/bt_zt.png");
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+/* 右边窗口 */
+
+.gncd {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  top: 10%;
+  right: 1%;
+  background: url("@/assets/speed/communityPNG/gncd.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 200;
+}
+
+#AnalysisRight {
+  width: 22%;
+  height: 55%;
+  top: 15%;
+  right: 1%;
+  position: absolute;
+  background: url("@/assets/speed/communityPNG/sggn.png") no-repeat center center;
+  background-size: 100% 100%;
+  z-index: 200;
+}
+
+.usually,
+.location,
+.myAnalysis {
+  width: 90%;
+  height: 10%;
+  position: relative;
+  margin-top: 18%;
+  margin-left: 5%;
+  display: flex;
+  text-align: center;
+}
+
+.location {
+  margin-top: 28%;
+  width: 45%;
+}
+
+.myAnalysis {
+  margin-top: 28%;
+  width: 66.7%;
+}
+
+.usually div,
+.location div,
+.myAnalysis div {
+  flex: 1;
+}
+
+#AnalysisRight h5 {
+  color: aliceblue;
+}
+
+.drawPoint,
+.drawLine,
+.drawM,
+.uClean,
+.upMode,
+.downMode,
+.rzfx,
+.ymfx,
+.kwfx,
+.drawPoint1,
+.drawLine1,
+.drawM1,
+.uClean1,
+.upMode1,
+.downMode1,
+.rzfx1,
+.ymfx1,
+.kwfx1 {
+  background: url("@/assets/speed/communityPNG/ic_d_nor.png") no-repeat;
+  background-size: 100% 100%;
+  width: 60%;
+  height: 100%;
+  border: none;
+}
+
+.drawLine {
+  background: url("@/assets/speed/communityPNG/ic_x_nor.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.drawM {
+  background: url("@/assets/speed/communityPNG/ic_m_nor.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.uClean {
+  background: url("@/assets/speed/communityPNG/ic_qc_nor.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.upMode {
+  background: url("@/assets/speed/communityPNG/ic_ds_nor.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.downMode {
+  background: url("@/assets/speed/communityPNG/ic_dx_nor.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.rzfx {
+  background: url("@/assets/speed/communityPNG/ic_rzfx_nor.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.ymfx {
+  background: url("@/assets/speed/communityPNG/ic_ymfx.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.kwfx {
+  background: url("@/assets/speed/communityPNG/ic_kw_nor.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+
+
+.drawPoint1 {
+  background: url("@/assets/speed/communityPNG/ic_d_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.drawLine1 {
+  background: url("@/assets/speed/communityPNG/ic_x_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.drawM1 {
+  background: url("@/assets/speed/communityPNG/ic_m_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.uClean1 {
+  background: url("@/assets/speed/communityPNG/ic_qc_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.upMode1 {
+  background: url("@/assets/speed/communityPNG/ic_ds_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.downMode1 {
+  background: url("@/assets/speed/communityPNG/ic_dx_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.rzfx1 {
+  background: url("@/assets/speed/communityPNG/ic_rzfx_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.ymfx1 {
+  background: url("@/assets/speed/communityPNG/ic_ymfx_sel.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.kwfx1 {
+  background: url("@/assets/speed/communityPNG/ic_kw_sel.png") no-repeat;
+  background-size: 100% 100%;
+}

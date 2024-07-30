@@ -1,0 +1,490 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 中间主体 */
+#box {
+    height: 92%;
+    margin-top: 4%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 200;
+}
+
+#left,
+#right {
+    position: absolute;
+    display: flex;
+    width: 22%;
+    margin-left: 1%;
+    margin-top: 4%;
+    height: 92%;
+    flex-direction: column;
+    z-index: 200;
+    animation: bounceInLeft 1.5s 1 cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+#right {
+    animation: bounceInRight 1.5s 1 cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+@keyframes bounceInLeft {
+    0% {
+        opacity: 0;
+        transform: translate3d(-3000px, 0, 0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate3d(15px, 0, 0);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translate3d(35px, 0, 0);
+    }
+
+    80% {
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(5px, 0, 0);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+@keyframes bounceInRight {
+    0% {
+        opacity: 0;
+        transform: translate3d(3000px, 0, 0);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate3d(15px, 0, 0);
+    }
+
+    70% {
+        opacity: 1;
+        transform: translate3d(35px, 0, 0);
+    }
+
+    80% {
+        transform: translate3d(-10px, 0, 0);
+    }
+
+    90% {
+        transform: translate3d(5px, 0, 0);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+#right {
+    right: 1%
+}
+
+.left-top,
+.left-center,
+.left-bottom,
+.right-top,
+.right-bottom {
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    height: 30%;
+    flex: 1;
+}
+
+.right-top {
+    flex: auto;
+    height: 20%;
+}
+
+.left-top {
+    background: url("@/assets/speed/communityPNG/雨水管网流量.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.left-center {
+    background: url("@/assets/speed/communityPNG/污水管网流量.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.left-bottom {
+    background: url("@/assets/speed/communityPNG/设备在线率.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.right-top {
+    background: url("@/assets/speed/communityPNG/安全告警检测信息.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.right-bottom {
+    background: url("@/assets/speed/communityPNG/硬件设备.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+strong {
+    font-size: 20px;
+    height: 10%;
+}
+
+#leftTop,
+#leftCenter,
+#leftBottom,
+#rightTop,
+#rightBottom {
+    height: 95%;
+    width: 100%;
+    margin-top: 8%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 底部 */
+#foot {
+    width: 60%;
+    height: 3%;
+    margin-left: 20%;
+    bottom: 0%;
+    position: absolute;
+    background: url("@/assets/speed/communityPNG/down.png") no-repeat center center;
+    background-size: 100% 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.cad,
+.warn,
+.equipment {
+    background: url("@/assets/speed/communityPNG/bt_cad.png") no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 35px;
+    border: none;
+}
+
+.warn {
+    background-image: url("@/assets/speed/communityPNG/bt_jg_1.png");
+}
+
+.equipment {
+    background-image: url("@/assets/speed/communityPNG/bt_s.png");
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.cad1 {
+    background: url("@/assets/speed/communityPNG/-m-bt_cad_sel.png") no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 35px;
+    border: none;
+}
+
+.warn1 {
+    background: url("@/assets/speed/communityPNG/bt_jg_sel.png") no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 35px;
+    border: none;
+}
+
+.equipment1 {
+    background: url("@/assets/speed/communityPNG/bt_s_sel.png") no-repeat;
+    background-size: 100% 100%;
+    width: 120px;
+    height: 35px;
+    border: none;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+
+.eqPopover {
+    width: 5%;
+    left: 47.6%;
+    top: 81%;
+    position: absolute;
+    z-index: 200;
+}
+
+.warnPopover {
+    width: 5%;
+    top: 88.5%;
+    left: 55.6%;
+    z-index: 200;
+    position: absolute;
+}
+
+.eqPopover button,
+.warnPopover button {
+    width: 100%;
+    height: 25px;
+    border: none;
+    background: url("@/assets/speed/communityPNG/list_nor.png");
+    background-size: 100% 100%;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: left;
+}
+
+.eqPopover button:hover,
+.warnPopover button:hover {
+    background: url("@/assets/speed/communityPNG/list_sel.png");
+    background-size: 100% 100%;
+}
+
+.eqPopover .sel1,
+.warnPopover .sel1,
+.eqPopover .sel,
+.warnPopover .sel {
+    appearance: none;
+    /* 清除掉自带的样式 */
+    -webkit-appearance: none;
+    /* 这是做兼容用的 只有谷歌浏览器作为参照 */
+    outline: none;
+    /* 部分浏览器清除自带的样式后外面会带有一圈边框 */
+    width: 13px;
+    /* 设置复选框的宽度 */
+    height: 13px;
+    border: none;
+    background: url("@/assets/speed/communityPNG/checkbox_nor.png");
+    background-size: 100% 100%;
+}
+
+.eqPopover .sel,
+.warnPopover .sel {
+    background: url("@/assets/speed/communityPNG/checkbox_sel.png");
+    background-size: 100% 100%;
+}
+
+/* 左上角样式 */
+#rightTop {
+    display: block;
+    margin-bottom: 10%;
+    margin-top: 0;
+}
+
+#tab,
+#tab1 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 4%;
+    padding-bottom: 3%;
+    z-index: 400;
+}
+
+#tab1 {
+    margin-top: 0;
+    margin-left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.active {
+    width: 20%;
+    margin-right: 4%;
+    margin-top: 25px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: larger;
+    background: url("@/assets/speed/communityPNG/tab_sel.png");
+    background-size: 100% 100%;
+}
+
+.deviceName {
+    width: 20%;
+    top: 5px;
+    position: relative;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    overflow: hidden;
+}
+
+.noActive {
+    width: 20%;
+    margin-right: 4%;
+    margin-top: 25px;
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: larger;
+    background: url("@/assets/speed/communityPNG/tab_nor.png");
+    background-size: 100% 100%;
+}
+
+.myTopItem {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    overflow: auto;
+}
+
+/* 隐藏 Chrome、Safari 和 Opera 的滚动条 */
+.myTopItem::-webkit-scrollbar {
+    display: none;
+}
+
+/* 隐藏 IE、Edge 和 Firefox 的滚动条 */
+.myTopItem {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.rightTopItem,
+.rightTopItem1 {
+    height: 55px;
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background: url("@/assets/speed/communityPNG/list_nor.png") no-repeat center center;
+    background-size: 100% 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.rightTopItem:hover {
+    background: url("@/assets/speed/communityPNG/list_sel.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#tab1 p {
+    margin-top: 4.5%;
+    padding: 0 3% 0 2%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    display: inline-block;
+}
+
+.myTopItem p {
+    margin-top: 4%;
+    padding: 0 1% 0 2%;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+    display: inline-block;
+}
+
+
+
+/* 右下角样式 */
+#rightBottom {
+    display: block;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+.rightBottomItem1,
+.rightBottomItem2,
+.rightBottomItem3,
+.rightBottomItem4,
+.rightBottomItem5 {
+    height: 22%;
+    width: 90%;
+    text-align: justify;
+    margin-left: 5%;
+    margin-top: 2%;
+    background: url("@/assets/speed/communityPNG/znjg.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.rightBottomItem2 {
+    background: url("@/assets/speed/communityPNG/ywj.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.rightBottomItem3 {
+    background: url("@/assets/speed/communityPNG/llj.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.rightBottomItem4 {
+    background: url("@/assets/speed/communityPNG/szy.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.rightBottomItem5 {
+    background: url("@/assets/speed/communityPNG/ylj.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.rightBottomVal,
+.rightBottomVal1 {
+    text-align: left;
+    padding: 15px 0 0 120px;
+    color: white;
+}
+
+.rightBottomVal1 {
+    padding: 0 0 0 120px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* 左下角样式 */
+.echartBottom {
+    height: 13%;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    bottom: 2%;
+    background: url("@/assets/speed/communityPNG/pie-di.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/* 设备弹窗 */
+#tooltip-view {
+    display: none;
+    position: absolute;
+    z-index: 150;
+    width: 200px;
+    height: 150px;
+    background: url("@/assets/speed/communityPNG/编号.png") no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#tooltip-view .id {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 10px 0 10px 10px;
+}
+
+#tooltip-view .name {
+    color:#B4E2F7;
+    display: inline;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+#tooltip-view .content {
+    color: rgb(255, 255, 255);
+    display: inline;
+}

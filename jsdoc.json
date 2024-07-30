@@ -1,0 +1,68 @@
+{
+    "source": {
+        "include": [
+            "src/cesiumSDK/core/"
+        ],
+        "exclude": [
+            "src/router"
+        ]
+    },
+    "opts": {
+        "template": "./src/assets/template/docdash",
+        "encoding": "utf8",
+        "destination": "./docs/",
+        "recurse": true,
+        "verbose": true
+    },
+    "docdash": {
+        "static": true,
+        "sort": true,
+        "sectionOrder": [
+            "Classes",
+            "Modules",
+            "Events",
+            "Externals",
+            "Namespaces",
+            "Mixins",
+            "Tutorials",
+            "Interfaces"
+        ],
+        "disqus": "",
+        "openGraph": {
+            "title": "Speed Smart3D SDK",
+            "type": "website",
+            "image": "public/img/logo.png",
+            "site_name": "",
+            "url": ""
+        },
+        "meta": {
+            "title": "",
+            "description": "",
+            "keyword": ""
+        },
+        "search": true,
+        "collapse": true,
+        "wrap": true,
+        "typedefs": true,
+        "navLevel": 3,
+        "private": true,
+        "scripts": [],
+        "menu": {
+            "Project Website": {
+                "href": "https://myproject.com",
+                "target": "_blank",
+                "class": "menu-item",
+                "id": "website_link"
+            },
+            "Forum": {
+                "href": "https://myproject.com.forum",
+                "target": "_blank",
+                "class": "menu-item",
+                "id": "forum_link"
+            }
+        },
+        "scopeInOutputPath": true, 
+        "nameInOutputPath": true, 
+        "versionInOutputPath": true 
+    }
+}
