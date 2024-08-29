@@ -3,7 +3,8 @@
 		<el-container>
 			<el-header v-show="this.$route.meta.show"
 				:style="style">
-				<div class="logo" v-show="speed.show"></div>
+				<!-- <div class="logo" v-show="speed.show"></div> -->
+            
 				<div class="homeName">{{speed.title}}</div>
 				<div class="Nav">
 					<button @click="myRouter1 = 1"
@@ -19,13 +20,14 @@
 			<div> <router-view></router-view> </div>
 			<div class="about" v-show="speed.show && this.$route.meta.show1">
 				<div style="width: 20%; margin-left: 10%">
-					<el-image class="aboutImg" :src="require('@/assets/speed/home/logo.png')" />
+					<!-- <el-image class="aboutImg" :src="require('@/assets/speed/home/logo.png')" /> -->
 					<div class="content4">
 						<p>缔造世界级时空信息王国</p>
 					</div>
 					<div class="phone">
 						<img src="@/assets/speed/home/ic_dh.png" />
-						<div>025-85584401</div>
+						<!-- <div>025-85584401</div> -->
+                     
 					</div>
 				</div>
 
@@ -41,27 +43,29 @@
 						<td>在线API</td>
 						<td>园区与建筑</td>
 						<td>
-							联系地址：江苏省南京市玄武区玄武大道699-22号江苏软件园8幢
+							<!-- 联系地址：江苏省南京市玄武区玄武大道699-22号江苏软件园8幢 -->
 						</td>
 					</tr>
 					<tr>
 						<td>应用案例</td>
 						<td>github</td>
 						<td>城市与新区</td>
-						<td>邮箱：office@speedchina.cn</td>
+						<!-- <td>邮箱：office@speedchina.cn</td> -->
+                        	 <td>邮箱：502655401@qq.com</td>
 					</tr>
 					<tr>
 						<td></td>
 						<td></td>
 						<td></td>
-						<td>联系电话：025-85581101</td>
+						<!-- <td>联系电话：025-85581101</td> -->
+                      
 					</tr>
 				</table>
 			</div>
 			<el-footer v-show="speed.show && this.$route.meta.show1"
 				style="text-align: center;color: white;background-color: #1b1c20;line-height: 100%;padding: 50px 15px;">
 				Copyright © 2017.Speed China Technology Co.,Ltd. All rights
-				reserved. 速度时空信息科技股份有限公司 苏ICP备18054352号
+				reserved. 极思科学 肃 ICP备18054352号
 			</el-footer>
 		</el-container>
 		<div id="myNavigation" v-show="showMyNavigation">
